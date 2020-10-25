@@ -13,4 +13,11 @@ topic_choice = str(input("Pick a Topic:"))
 
 
 if topic_choice == "1":
-    print("Hello")
+    print("Electricity Equations:")
+    print("1) V=IR  Voltage = Current x Resistance")
+    print("2) P=VI  Power   = Voltage x Current")
+    print("3) Q=IT  Charge  = Current x Time")
+    topic1_equations = str(input("Choose an Equation:"))
+
+    if topic1_equations == "1":
+        
